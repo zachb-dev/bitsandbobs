@@ -4,6 +4,6 @@
   },
   "scripts": {
     "dev": "powershell -ExecutionPolicy Bypass -File dev.ps1 -Message \"$env:COMMIT\"",
-    "build": "powershell -ExecutionPolicy Bypass -File build.ps1"
+    "deploy": "powershell -ExecutionPolicy Bypass -File deploy.ps1"
   }
 }
