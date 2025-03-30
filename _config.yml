@@ -23,12 +23,12 @@ title: Bits And Bobs
 description: >- # this means to ignore newlines until "baseurl:"
   Easily add stylish badges, Tooltips, and other utilities to your website with just CSS. No JavaScript, no extra markup—ideal for CMS platforms like WordPress & Squarespace.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://github.com/zachb-dev/bitsandbobs" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com https://github.com/zachb-dev/bitsandbobs"
 #twitter_username: jekyllrb
 github_username:  zachb-dev
 
 # Build settings
-theme: jekyll-theme-chirpy
+#theme: jekyll-theme-chirpy
 lang: "en"
 timezone: "America/New_York"
 
@@ -38,8 +38,10 @@ paginate: 5
 
 plugins:
   - jekyll-feed
-  - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -60,3 +62,15 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Custom site settings
+site:
+  css: style.css
+
+sass:
+  style: compressed
+  load_paths:
+    - _sass
+  quiet_deps: true
+exclude:
+  - assets/css/style.scss
