@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "jekyll-theme-chirpy.css",
+	"sources": [
+		"jekyll-theme-chirpy.scss"
+	],
+	"sourcesContent": [
+		"@use 'main';\n\n/* append your custom style below */\n"
+	],
+	"names": [],
+	"mappings": "AAAA,IAAI,CAAJ,MAAI"
+}
