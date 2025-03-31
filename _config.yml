@@ -74,3 +74,7 @@ sass:
   quiet_deps: true
 exclude:
   - assets/css/style.scss
+
+exclude:
+  - deploy.ps1
+  - dev.ps1
