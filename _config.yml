@@ -22,8 +22,8 @@ title: Bits And Bobs
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Easily add stylish badges, Tooltips, and other utilities to your website with just CSS. No JavaScript, no extra markup—ideal for CMS platforms like WordPress & Squarespace.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com https://github.com/zachb-dev/bitsandbobs"
+baseurl: "/bitsandbobs" # the subpath of your site, e.g. /blog
+url: "https://zachb-dev.github.io" # the base hostname & protocol for your site, e.g. http://example.com https://github.com/zachb-dev/bitsandbobs"
 #twitter_username: jekyllrb
 github_username:  zachb-dev
 

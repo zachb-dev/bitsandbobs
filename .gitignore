@@ -7,3 +7,4 @@ node_modules/
 vendor
 dev.ps1
 deploy.ps1
+*.ps1
