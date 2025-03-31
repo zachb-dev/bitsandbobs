@@ -4,6 +4,8 @@
   },
   "scripts": {
     "dev": "powershell -ExecutionPolicy Bypass -File dev.ps1 -Message \"$env:COMMIT\"",
-    "deploy": "powershell -ExecutionPolicy Bypass -File deploy.ps1"
+    "deploy": "powershell -ExecutionPolicy Bypass -File deploy.ps1",
+    "serve": "bundle exec jekyll serve --config _config.yml,_config.dev.yml"
+
   }
 }
